@@ -1,0 +1,15 @@
+@font-face {
+font-family: 'EXO-MEDIUMITALIC';
+src: url(EXO-MEDIUMITALIC.TTF);
+}
+
+#index-background{
+	font-family: EXO-MEDIUMITALIC;
+	 width: screen.width;
+	 height: 700px;
+	 background-image: url("Assets/fondo-contenedores.jpg");
+}
+#index-nav{
+	padding-top: 40px;
+	padding-left: 100px;
+}

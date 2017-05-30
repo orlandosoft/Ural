@@ -3,13 +3,73 @@ font-family: 'EXO-MEDIUMITALIC';
 src: url(EXO-MEDIUMITALIC.TTF);
 }
 
-#index-background{
+#section-one{
 	font-family: EXO-MEDIUMITALIC;
+	color: #004072;
+	font-size: 13px;
 	 width: screen.width;
-	 height: 700px;
+	 height: 600px;
 	 background-image: url("Assets/fondo-contenedores.jpg");
+	 background-size: 100% 100%;
+
 }
 #index-nav{
+	border-bottom: none;
+	text-align: right;
 	padding-top: 40px;
 	padding-left: 100px;
+	
+}
+
+#index-logo{
+	width: 140px;
+	height: 70px;
+	background-image: url("Assets/logo.png") ;
+	background-size: 100% 100%;
+}
+#first-li{
+	padding-left: 15px;
+}
+
+#message-index{
+	font-size: 75px;
+	padding-left: 100px;
+	margin-top: 250px;
+	color: #002d67;
+
+}
+
+#section-two{
+	font-family: EXO-MEDIUMITALIC;
+	color: #004072;
+	font-size: 13px;
+	 width: screen.width;
+	 height: 400px;
+	 background-color: #006d9c;
+	 background-size: 100% 100%;
+
+}
+#message-services{
+	padding-bottom: 50px;
+	padding-left: 450px;
+	font-size: 20px;
+}
+
+.nav-tabs{
+	border-bottom: none;
+	
+}
+.li-fix{
+	padding-top: 25px;
+	padding-left: 10px;
+}
+.a{
+	color: #002d67;
+}
+.row{
+	color: white;
+	padding-top: 30px;
+	padding-left: 150px;
+	text-align:center;
+	font-size: 10px;
 }
